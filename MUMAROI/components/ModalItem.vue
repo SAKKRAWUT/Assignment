@@ -24,8 +24,8 @@
       </div>
     </div>
 <!-- footer -->
-    <div class="foot flex justify-between mt-8 pr-4">
-      <div>0</div>
+    <div class="foot flex justify-between mt-8 pr-6">
+      <Counter />
       <div class="btn w-4/5 ">
         add cart
       </div>

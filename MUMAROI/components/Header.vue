@@ -14,14 +14,14 @@
           </li> -->
           <!-- history-->
           <li>
-            <NuxtLink to="/orderlist"><button class="btn btn-square btn-outline border-transparent ml-6">
+            <NuxtLink to="/orderlist"><button class="btn btn-square btn-outline bg-white border-transparent ">
                 <Icon name="ic:round-list-alt" size="50" />
               </button>
             </NuxtLink>
           </li>
           <!--cart  -->
           <li>
-            <NuxtLink to="/cart"><button class="btn btn-square btn-outline border-transparent mr-6">
+            <NuxtLink to="/cart"><button class="btn btn-square btn-outline  bg-white border-transparent ">
                 <Icon name="material-symbols:shopping-cart-outline-rounded" size="50" />
               </button></NuxtLink>
           </li>
@@ -30,7 +30,7 @@
     </div>
     <!-- pic -->
     <div class="img ">
-      <img src="" class="w-full h-52 bg-red-600" alt="">
+      <img src="" class="w-full h-52 bg-orange-600" alt="">
     </div>
     <!-- name -->
     <div class="namelabel bg-white text-center p-1">
