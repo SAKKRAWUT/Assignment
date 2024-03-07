@@ -12,6 +12,12 @@
             </button>
             <orderlist />
           </li> -->
+          <!--cart  -->
+          <li>
+            <NuxtLink to="/cart"><button class="btn btn-square btn-outline  bg-white border-transparent ">
+                <Icon name="material-symbols:shopping-cart-outline-rounded" size="50" />
+              </button></NuxtLink>
+          </li>
           <!-- history-->
           <li>
             <NuxtLink to="/orderlist"><button class="btn btn-square btn-outline bg-white border-transparent ">
@@ -19,12 +25,7 @@
               </button>
             </NuxtLink>
           </li>
-          <!--cart  -->
-          <li>
-            <NuxtLink to="/cart"><button class="btn btn-square btn-outline  bg-white border-transparent ">
-                <Icon name="material-symbols:shopping-cart-outline-rounded" size="50" />
-              </button></NuxtLink>
-          </li>
+          
         </ul>
       </nav>
     </div>
